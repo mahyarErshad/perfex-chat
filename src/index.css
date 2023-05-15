@@ -82,23 +82,24 @@ body,
   border: 1px solid #f77f00;
   backdrop-filter: blur(4.5px);
 }
-.hero-section-cta .button-wrapper::after {
+.hero-section-cta a::after {
   content: "";
   position: absolute;
   background-image: url(./assets/images/button-after-shape.svg);
-  left: -0.8125rem;
-  bottom: -5.8125rem;
-  width: 100%;
-  height: 100%;
+  left: -0.5rem;
+  bottom: -0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-repeat: no-repeat;
+  transform: rotate(356deg);
 }
-.hero-section-cta .button-wrapper::before {
+.hero-section-cta a::before {
   content: "";
   position: absolute;
-  background-image: url(./assets/images/button-after-shape.svg);
-  right: -13.1875rem;
-  top: 2.5625rem;
-  width: 100%;
-  height: 100%;
+  background-image: url(./assets/images/button-before-shape.svg);
+  right: -0.25rem;
+  top: -0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-repeat: no-repeat;
 }

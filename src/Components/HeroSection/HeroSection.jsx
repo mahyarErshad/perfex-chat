@@ -40,11 +40,9 @@ function HeroSection() {
         <p className="mt-[3.25rem] text-[#292929] max-md:text-lg md:text-2xl font-semibold text-center">
           با ماژول <strong className="text-white">” چت پرفکس ”</strong> امکان گفتگو آنلاین بین کارکنان را فراهم کنید.
         </p>
-        <div className="button-wrapper relative">
-          <a href="#aa" target="_blank" className="shadow-md mt-[3.4375rem] bg-white py-3 px-12 text-xl font-semibold text-primary flex-center rounded-3xl hover:opacity-90 duration-300">
-            دموی محصول
-          </a>
-        </div>
+        <a href="#aa" target="_blank" className="shadow-md mt-[3.4375rem] bg-white py-3 px-12 text-xl font-semibold text-primary flex-center rounded-3xl hover:opacity-90 duration-300 relative">
+          دموی محصول
+        </a>
       </div>
     </section>
   );
