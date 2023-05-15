@@ -22,7 +22,7 @@ function HeroSection() {
       {/* Navbars */}
       <div className="header-navbar-container mt-12 w-full max-w-[54.375rem] flex-center py-7 px-2">
         <nav>
-          <ul className="flex-center gap-[6.5rem]">
+          <ul className="flex-center max-md:gap-8 md:gap-[6.5rem]">
             {navbars.map(({ text, href }, index) => {
               return (
                 <li key={index}>
