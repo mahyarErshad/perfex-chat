@@ -44,6 +44,9 @@ body,
   font-family: yekanBakh;
   direction: rtl;
 }
+:root {
+  --primary-color: #f77f00;
+}
 .flex-center {
   @apply flex justify-center items-center;
 }
@@ -52,5 +55,5 @@ body,
 }
 .hero-section {
   background-image: url(./assets/images/hero-section-emoji-chats.png);
-  background-color: cyan;
+  background-color: var(--primary-color);
 }
