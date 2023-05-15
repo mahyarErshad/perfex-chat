@@ -3,6 +3,33 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: yekanBakh;
+  src: url("./assets/fonts/YekanBakhFaNum-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: yekanBakh;
+  src: url("./assets/fonts/YekanBakhFaNum-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: yekanBakh;
+  src: url("./assets/fonts/YekanBakhFaNum-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: yekanBakh;
+  src: url("./assets/fonts/YekanBakhFaNum-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
 html,
 body,
 #root {
