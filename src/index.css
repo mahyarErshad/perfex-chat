@@ -82,3 +82,23 @@ body,
   border: 1px solid #f77f00;
   backdrop-filter: blur(4.5px);
 }
+.hero-section-cta .button-wrapper::after {
+  content: "";
+  position: absolute;
+  background-image: url(./assets/images/button-after-shape.svg);
+  left: -0.8125rem;
+  bottom: -5.8125rem;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.hero-section-cta .button-wrapper::before {
+  content: "";
+  position: absolute;
+  background-image: url(./assets/images/button-after-shape.svg);
+  right: -13.1875rem;
+  top: 2.5625rem;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
