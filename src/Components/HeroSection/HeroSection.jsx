@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import desktopImage from "../../assets/images/hero-section-desktop-image.png";
 
 function HeroSection() {
@@ -50,4 +50,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default memo(HeroSection);
