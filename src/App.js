@@ -1,7 +1,12 @@
 import React from "react";
+import HeroSection from "./Components/HeroSection/HeroSection/HeroSection";
 
 function App() {
-  return <div className="bg-red-600">یلیبلیل</div>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 }
 
 export default App;
