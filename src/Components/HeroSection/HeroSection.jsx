@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import desktopImage from "../../assets/images/hero-section-desktop-image.png"
 
 function HeroSection() {
   const [selectedNav, setSelectedNav] = useState(0);
