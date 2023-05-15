@@ -49,3 +49,7 @@ body,
 .flex-col {
   @apply flex;
 }
+.hero-section{
+  background-image: url(./assets/images/hero-section-emoji-chats.png);
+  background-color: cyan;
+}
