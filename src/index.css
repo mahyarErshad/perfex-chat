@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #4e4e4e;
 }
 @font-face {
   font-family: yekanBakh;
@@ -49,7 +50,7 @@ body,
 .flex-col {
   @apply flex;
 }
-.hero-section{
+.hero-section {
   background-image: url(./assets/images/hero-section-emoji-chats.png);
   background-color: cyan;
 }
