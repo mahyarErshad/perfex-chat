@@ -57,3 +57,18 @@ body,
   background-image: url(./assets/images/hero-section-emoji-chats.png);
   background-color: var(--primary-color);
 }
+.header-navbar-container {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(0.1875rem);
+  border-radius: 0.625rem 1.5rem;
+}
+.navbar-after::after {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -0.75rem;
+  right: 45%;
+}
