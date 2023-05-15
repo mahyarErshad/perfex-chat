@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import desktopImage from "../../assets/images/hero-section-desktop-image.png"
+import desktopImage from "../../assets/images/hero-section-desktop-image.png";
 
 function HeroSection() {
   const [selectedNav, setSelectedNav] = useState(0);
@@ -18,9 +18,9 @@ function HeroSection() {
     },
   ];
   return (
-    <section className="hero-section h-screen w-full flex-col justify-start items-center px-4">
+    <section className="hero-section h-fit max-md:pb-40 md:pb-[21.875rem] w-full flex-col justify-start items-center px-4 relative">
       {/* Navbars */}
-      <div className="header-navbar-container mt-12 w-full max-w-[54.375rem] flex-center py-7">
+      <div className="header-navbar-container mt-12 w-full max-w-[54.375rem] flex-center py-7 px-2">
         <nav>
           <ul className="flex-center gap-[6.5rem]">
             {navbars.map(({ text, href }, index) => {
@@ -45,6 +45,7 @@ function HeroSection() {
           دموی محصول
         </a>
       </div>
+      <img className="absolute bottom-0 translate-y-[50%]" src={desktopImage} alt="Screenshot of perfex chat module" />
     </section>
   );
 }
