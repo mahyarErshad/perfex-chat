@@ -2,7 +2,9 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <div>HeroSection</div>
+    <section className='hero-section h-screen w-full flex-col flex-center'>
+
+    </section>
   )
 }
 
