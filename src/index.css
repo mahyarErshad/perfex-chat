@@ -83,7 +83,7 @@ body,
   border: 1px solid var(--primary-color);
   backdrop-filter: blur(4.5px);
 }
-.hero-section-cta a::after {
+.my-button::after {
   content: "";
   position: absolute;
   background-image: url(./assets/images/button-after-shape.svg);
@@ -94,7 +94,7 @@ body,
   background-repeat: no-repeat;
   transform: rotate(356deg);
 }
-.hero-section-cta a::before {
+.my-button::before {
   content: "";
   position: absolute;
   background-image: url(./assets/images/button-before-shape.svg);

@@ -1,5 +1,6 @@
 import React, { memo, useState } from "react";
 import desktopImage from "../../assets/images/hero-section-desktop-image.png";
+import MyButton from "../Utils/MyButton/MyButton";
 
 const HeroSection = () => {
   const [selectedNav, setSelectedNav] = useState(0);
@@ -45,6 +46,7 @@ const HeroSection = () => {
         <p className="mt-[3.25rem] text-[#292929] max-md:text-lg md:text-2xl font-semibold text-center">
           با ماژول <strong className="text-white">” چت پرفکس ”</strong> امکان گفتگو آنلاین بین کارکنان را فراهم کنید.
         </p>
+        <MyButton text="دموی محصول" href="#" />
       </div>
       <img className="absolute bottom-0 translate-y-[50%]" src={desktopImage} alt="Screenshot of perfex chat module" />
     </section>
