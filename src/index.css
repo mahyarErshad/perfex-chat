@@ -85,4 +85,5 @@ body,
 }
 #Introduction {
   background: url(./assets/images/introduction-background-shape.svg);
+  background-position: center;
 }
