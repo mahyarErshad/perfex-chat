@@ -3,6 +3,7 @@ import SectionTitle from "../Utils/SectionTitle/SectionTitle";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 function ToolsSection() {
+  const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت"];
   return (
     <section className="max-md:mt-24 md:mt-[10.625rem] w-full px-4">
       <SectionTitle title="امکانات ماژول چت اسکریپت پرفکس" />
