@@ -93,7 +93,7 @@ body,
 }
 .react-tabs__tab {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 0.5rem 1rem 0.5rem 2rem;
   gap: 0.5rem;
@@ -108,4 +108,7 @@ body,
   background-color: var(--primary-color);
   outline: none;
   color: white;
+}
+.react-tabs__tab[aria-selected="true"] svg {
+  stroke: white;
 }

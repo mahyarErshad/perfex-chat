@@ -1,6 +1,7 @@
 import React from "react";
 import SectionTitle from "../Utils/SectionTitle/SectionTitle";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { ReactComponent as LayerIcon } from "../../assets/images/tabs-layer-icon.svg";
 
 function ToolsSection() {
   const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت"];
@@ -11,12 +12,14 @@ function ToolsSection() {
         <div className="flex-col gap-8 lg:max-w-[33.5rem]">
           <p className="text-base font-semibold">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
           <TabList className="grid lg:grid-cols-2 grid-tabs-gap">
-            <Tab>Title 1</Tab>
-            <Tab>Title 2</Tab>
-            <Tab>Title 3</Tab>
-            <Tab>Title 4</Tab>
-            <Tab>Title 5</Tab>
-            <Tab>Title 6</Tab>
+            {tabs.map((tab, index) => {
+              return (
+                <Tab key={index}>
+                  <LayerIcon stroke="#242424" />
+                  <h3 className="text-inherit">{tab}</h3>
+                </Tab>
+              );
+            })}
           </TabList>
         </div>
         <div className=""></div>
