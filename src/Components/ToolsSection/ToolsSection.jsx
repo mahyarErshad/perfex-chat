@@ -1,5 +1,6 @@
 import React from "react";
 import SectionTitle from "../Utils/SectionTitle/SectionTitle";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 function ToolsSection() {
   return (
