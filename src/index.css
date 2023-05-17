@@ -83,3 +83,6 @@ body,
   border: 1px solid var(--primary-color);
   backdrop-filter: blur(4.5px);
 }
+#Introduction {
+  background: url(./assets/images/introduction-background-shape.svg);
+}
