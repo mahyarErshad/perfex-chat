@@ -2,7 +2,7 @@ import React from "react";
 import SectionTitle from "../Utils/SectionTitle/SectionTitle";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { ReactComponent as LayerIcon } from "../../assets/images/tabs-layer-icon.svg";
-import image from "../../assets/images/tabpanel-images/1.jpg"
+import image from "../../assets/images/tabpanel-images/1.jpg";
 
 function ToolsSection() {
   const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت"];
@@ -23,7 +23,15 @@ function ToolsSection() {
             })}
           </TabList>
         </div>
-        <div className=""></div>
+        <div>
+          {tabs.map((_, index) => {
+            return (
+              <TabPanel key={index}>
+                <img src={image} alt="Screenshot of Perfex chat module" />
+              </TabPanel>
+            );
+          })}
+        </div>
       </Tabs>
     </section>
   );
