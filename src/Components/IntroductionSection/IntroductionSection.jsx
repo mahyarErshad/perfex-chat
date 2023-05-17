@@ -2,7 +2,9 @@ import React from 'react'
 
 function IntroductionSection() {
   return (
-    <div>IntroductionSection</div>
+    <section className='mt-[23.5rem] w-full px-4'>
+    
+    </section>
   )
 }
 
