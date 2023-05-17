@@ -1,21 +1,19 @@
-.my-button::after {
-  content: "";
-  position: absolute;
-  background-image: url(../../../assets/images/button-after-shape.svg);
-  left: -0.5rem;
-  bottom: -0.5rem;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-repeat: no-repeat;
-  transform: rotate(356deg);
-}
+.my-button::after,
 .my-button::before {
   content: "";
   position: absolute;
-  background-image: url(../../../assets/images/button-before-shape.svg);
-  right: -0.25rem;
-  top: -0.5rem;
   width: 1.5rem;
   height: 1.5rem;
   background-repeat: no-repeat;
+}
+.my-button::after {
+  background-image: url(../../../assets/images/button-after-shape.svg);
+  left: -0.5rem;
+  bottom: -0.5rem;
+  transform: rotate(356deg);
+}
+.my-button::before {
+  background-image: url(../../../assets/images/button-before-shape.svg);
+  right: -0.25rem;
+  top: -0.5rem;
 }
