@@ -23,7 +23,7 @@ function ToolsSection() {
             })}
           </TabList>
         </div>
-        <div>
+        <div className="min-w-2/4">
           {tabs.map((_, index) => {
             return (
               <TabPanel key={index}>
