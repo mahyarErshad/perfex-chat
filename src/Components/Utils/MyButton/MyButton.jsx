@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./styles.module.css"
 
 function MyButton({ href, text, white }) {
   const color = white ? "bg-white text-primary" : "bg-primary text-white";
