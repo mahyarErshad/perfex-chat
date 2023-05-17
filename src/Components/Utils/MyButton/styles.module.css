@@ -7,13 +7,17 @@
   background-repeat: no-repeat;
 }
 .my-button::after {
-  background-image: url(../../../assets/images/button-after-shape.svg);
   left: -0.5rem;
   bottom: -0.5rem;
   transform: rotate(356deg);
 }
 .my-button::before {
-  background-image: url(../../../assets/images/button-before-shape.svg);
   right: -0.25rem;
   top: -0.5rem;
+}
+.white-button::after {
+  background-image: url(../../../assets/images/button-after-shape.svg);
+}
+.white-button::before {
+  background-image: url(../../../assets/images/button-before-shape.svg);
 }
