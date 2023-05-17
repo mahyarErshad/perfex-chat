@@ -7,7 +7,7 @@ import image from "../../assets/images/tabpanel-images/1.jpg";
 function ToolsSection() {
   const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت"];
   return (
-    <section className="max-md:mt-24 md:mt-[10.625rem] w-full px-4">
+    <section id="tools" className="max-md:mt-24 md:mt-[10.625rem] w-full px-4">
       <SectionTitle title="امکانات ماژول چت اسکریپت پرفکس" />
       <Tabs className="flex max-lg:flex-col justify-center gap-6 mt-14">
         <div className="flex-col gap-8 lg:max-w-[33.5rem]">
