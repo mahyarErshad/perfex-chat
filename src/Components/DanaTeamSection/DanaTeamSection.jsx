@@ -2,6 +2,7 @@ import React from "react";
 import MyButton from "../Utils/MyButton/MyButton";
 import { ReactComponent as EmptyHeart } from "../../assets/images/shapes/empty-heart.svg";
 import { ReactComponent as FilledWhiteHeart } from "../../assets/images/shapes/white-filled-heart.svg";
+import { ReactComponent as SmallFilledWhiteHeart } from "../../assets/images/shapes/small-filled-heart-white";
 
 function DanaTeamSection() {
   return (
