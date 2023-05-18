@@ -1,6 +1,7 @@
 import React from "react";
 import MyButton from "../Utils/MyButton/MyButton";
 import { ReactComponent as EmptyHeart } from "../../assets/images/shapes/empty-heart.svg";
+import { ReactComponent as FilledWhiteHeart } from "../../assets/images/shapes/white-filled-heart.svg";
 
 function DanaTeamSection() {
   return (
