@@ -3,6 +3,7 @@ import MyButton from "../Utils/MyButton/MyButton";
 import { ReactComponent as EmptyHeart } from "../../assets/images/shapes/empty-heart.svg";
 import { ReactComponent as FilledWhiteHeart } from "../../assets/images/shapes/white-filled-heart.svg";
 import { ReactComponent as SmallFilledWhiteHeart } from "../../assets/images/shapes/small-filled-heart-white.svg";
+import { ReactComponent as SmallEmptyHeartWhite } from "../../assets/images/shapes/small-empty-heart-white.svg";
 
 function DanaTeamSection() {
   return (
@@ -14,6 +15,7 @@ function DanaTeamSection() {
           <EmptyHeart className="absolute top-8 right-28 max-md:hidden" />
           <FilledWhiteHeart className="absolute bottom-8 right-52 max-md:hidden" />
           <SmallFilledWhiteHeart className="absolute top-9 left-14 max-md:hidden" />
+          <SmallEmptyHeartWhite className="absolute top-9 left-14 max-md:hidden" />
         </div>
       </section>
       <div className="w-full h-full max-h-[23.9375rem] footer-background mt-[7rem]"></div>
