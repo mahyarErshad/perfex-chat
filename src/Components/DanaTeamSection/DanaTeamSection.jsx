@@ -17,6 +17,7 @@ function DanaTeamSection() {
           <FilledWhiteHeart className="absolute bottom-8 right-52 max-md:hidden" />
           <SmallFilledWhiteHeart className="absolute top-9 left-14 max-md:hidden" />
           <SmallEmptyHeartWhite className="absolute bottom-4 left-[5.5rem] max-md:hidden" />
+          <OrangeHeart className="absolute top-0 right-0 translate-x-[100%] -translate-y-[100%] max-md:hidden" />
         </div>
       </section>
       <div className="w-full h-full max-h-[23.9375rem] footer-background mt-[7rem]"></div>
