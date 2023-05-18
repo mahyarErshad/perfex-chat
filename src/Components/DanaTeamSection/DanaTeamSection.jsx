@@ -4,6 +4,7 @@ import { ReactComponent as EmptyHeart } from "../../assets/images/shapes/empty-h
 import { ReactComponent as FilledWhiteHeart } from "../../assets/images/shapes/white-filled-heart.svg";
 import { ReactComponent as SmallFilledWhiteHeart } from "../../assets/images/shapes/small-filled-heart-white.svg";
 import { ReactComponent as SmallEmptyHeartWhite } from "../../assets/images/shapes/small-empty-heart-white.svg";
+import { ReactComponent as OrangeHeart } from "../../assets/images/shapes/orange-heart.svg";
 
 function DanaTeamSection() {
   return (
