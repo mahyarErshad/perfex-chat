@@ -84,7 +84,7 @@ body,
   border: 1px solid var(--primary-color);
   backdrop-filter: blur(4.5px);
 }
-#Introduction {
+#Introduction, .footer-background {
   background: url(./assets/images/introduction-background-shape.svg);
   background-position: center;
 }

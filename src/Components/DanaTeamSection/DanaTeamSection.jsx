@@ -1,6 +1,5 @@
 import React from "react";
 import MyButton from "../Utils/MyButton/MyButton";
-import backgroundShape from "../../assets/images/introduction-background-shape.svg";
 
 function DanaTeamSection() {
   return (
@@ -11,7 +10,7 @@ function DanaTeamSection() {
           <MyButton white text="دیگر محصولات" href="#" />
         </div>
       </section>
-      <img className="w-full h-full" src={backgroundShape} alt="background shape" />
+      <div className="w-full h-full max-h-[23.9375rem] footer-background mt-[7rem]"></div>
     </>
   );
 }
