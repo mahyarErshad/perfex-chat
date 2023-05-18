@@ -113,11 +113,14 @@ body,
 .react-tabs__tab[aria-selected="true"] svg {
   stroke: white;
 }
+.rounded-custom {
+  border-radius: 2.5rem 1.5rem;
+}
 @media (max-width: 455px) {
   .grid-1 {
     grid-template-columns: 1fr !important;
   }
-  .react-tabs__tab{
+  .react-tabs__tab {
     width: 100% !important;
   }
 }
