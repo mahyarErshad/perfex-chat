@@ -1,5 +1,6 @@
 import React, { memo, useState } from "react";
 import desktopImage from "../../assets/images/hero-section-desktop-image.png";
+import bannerBehindShape from "../../assets/images/banner-behind-shape.png";
 import MyButton from "../Utils/MyButton/MyButton";
 import { ReactComponent as OrangeStar } from "../../assets/images/shapes/orange-star.svg";
 import { ReactComponent as BigGoldStar } from "../../assets/images/shapes/big-gold-star.svg";
