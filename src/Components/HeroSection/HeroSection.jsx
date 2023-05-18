@@ -4,6 +4,7 @@ import MyButton from "../Utils/MyButton/MyButton";
 import { ReactComponent as OrangeStar } from "../../assets/images/shapes/orange-star.svg";
 import { ReactComponent as EmptyHeart } from "../../assets/images/shapes/empty-heart.svg";
 import { ReactComponent as BigFilledHeart } from "../../assets/images/shapes/big-filled-heart.svg";
+import { ReactComponent as SmallFilledHeart } from "../../assets/images/shapes/small-filled-heart.svg";
 
 const HeroSection = () => {
   const [selectedNav, setSelectedNav] = useState(0);
@@ -55,6 +56,7 @@ const HeroSection = () => {
         <BigFilledHeart className="absolute bottom-14 right-16 max-md:hidden" />
         <OrangeStar className="absolute bottom-3 right-36 max-md:hidden" />
         <OrangeStar className="absolute top-14 left-[5.625rem] max-md:hidden" />
+        <SmallFilledHeart className="absolute top-28 left-9 max-md:hidden" />
       </div>
       <img className="absolute bottom-0 translate-y-[50%]" src={desktopImage} alt="Screenshot of perfex chat module" />
     </section>
