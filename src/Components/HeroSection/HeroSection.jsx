@@ -1,6 +1,7 @@
 import React, { memo, useState } from "react";
 import desktopImage from "../../assets/images/hero-section-desktop-image.png";
 import MyButton from "../Utils/MyButton/MyButton";
+import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 
 const HeroSection = () => {
   const [selectedNav, setSelectedNav] = useState(0);
@@ -49,6 +50,9 @@ const HeroSection = () => {
         <MyButton className="mt-[3.4375rem]" text="دموی محصول" href="#" white />
       </div>
       <img className="absolute bottom-0 translate-y-[50%]" src={desktopImage} alt="Screenshot of perfex chat module" />
+      <MouseParallaxContainer containerStyle={{ position: "absolute" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="w-full h-full max-lg:hidden top-0 right-0 left-0 bottom-0">
+        <MouseParallaxChild className="absolute top-0 right-0 bg-[#0666BD] circle w-[50rem] h-[50rem]" />
+      </MouseParallaxContainer>
     </section>
   );
 };
