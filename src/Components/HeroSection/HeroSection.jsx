@@ -54,6 +54,7 @@ const HeroSection = () => {
         <EmptyHeart className="absolute top-24 right-11 max-md:hidden" />
         <BigFilledHeart className="absolute bottom-14 right-16 max-md:hidden" />
         <OrangeStar className="absolute bottom-3 right-36 max-md:hidden" />
+        <OrangeStar className="absolute top-14 left-[5.625rem] max-md:hidden" />
       </div>
       <img className="absolute bottom-0 translate-y-[50%]" src={desktopImage} alt="Screenshot of perfex chat module" />
     </section>
