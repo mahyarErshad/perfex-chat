@@ -2,6 +2,7 @@ import React, { memo, useState } from "react";
 import desktopImage from "../../assets/images/hero-section-desktop-image.png";
 import MyButton from "../Utils/MyButton/MyButton";
 import { ReactComponent as OrangeStar } from "../../assets/images/shapes/orange-star.svg";
+import { ReactComponent as BigGoldStar } from "../../assets/images/shapes/big-gold-star.svg";
 import { ReactComponent as EmptyHeart } from "../../assets/images/shapes/empty-heart.svg";
 import { ReactComponent as SmallEmptyHeart } from "../../assets/images/shapes/small-empty-heart.svg";
 import { ReactComponent as BigFilledHeart } from "../../assets/images/shapes/big-filled-heart.svg";
