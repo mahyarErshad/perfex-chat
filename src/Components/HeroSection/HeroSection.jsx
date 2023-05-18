@@ -3,6 +3,7 @@ import desktopImage from "../../assets/images/hero-section-desktop-image.png";
 import MyButton from "../Utils/MyButton/MyButton";
 import { ReactComponent as OrangeStar } from "../../assets/images/shapes/orange-star.svg";
 import { ReactComponent as EmptyHeart } from "../../assets/images/shapes/empty-heart.svg";
+import { ReactComponent as SmallEmptyHeart } from "../../assets/images/shapes/small-empty-heart.svg";
 import { ReactComponent as BigFilledHeart } from "../../assets/images/shapes/big-filled-heart.svg";
 import { ReactComponent as SmallFilledHeart } from "../../assets/images/shapes/small-filled-heart.svg";
 
