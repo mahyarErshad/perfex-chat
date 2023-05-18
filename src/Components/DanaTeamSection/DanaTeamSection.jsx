@@ -1,6 +1,6 @@
 import React from "react";
 import MyButton from "../Utils/MyButton/MyButton";
-import backgroundShape from "../../assets/images/footer-background-shape.svg";
+import backgroundShape from "../../assets/images/introduction-background-shape.svg";
 
 function DanaTeamSection() {
   return (
