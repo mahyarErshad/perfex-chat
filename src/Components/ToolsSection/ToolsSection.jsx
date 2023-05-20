@@ -10,7 +10,7 @@ function ToolsSection() {
     <section id="tools" className="max-md:mt-24 md:mt-[10.625rem] w-full px-4">
       <SectionTitle title="امکانات ماژول چت اسکریپت پرفکس" />
       <Tabs className="flex max-lg:flex-col justify-center gap-6 mt-14">
-        <div className="flex-col gap-8 lg:max-w-[33.5rem]">
+        <div className="flex-col gap-8 lg:max-w-[33.5rem] flex-shrink-0">
           <TabList className="grid grid-1 max-sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 grid-tabs-gap">
             {tabs.map((tab, index) => {
               return (
@@ -22,7 +22,7 @@ function ToolsSection() {
             })}
           </TabList>
         </div>
-        <div className="min-w-2/4 h-full">
+        <div className="min-w-2/4 h-full flex-shrink">
           {tabs.map((_, index) => {
             return (
               <TabPanel key={index}>
