@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { ReactComponent as LayerIcon } from "../../assets/images/tabs-layer-icon.svg";
 import image1 from "../../assets/images/tabpanel-images/switch.png";
 import image2 from "../../assets/images/tabpanel-images/chat.png";
+import image3 from "../../assets/images/tabpanel-images/group-chat.png";
 
 function ToolsSection() {
   const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت", "اعمال دسترسی", "تاریخچه  فایل ها"];
@@ -27,7 +28,7 @@ function ToolsSection() {
           {tabs.map((_, index) => {
             return (
               <TabPanel key={index}>
-                <img src={image} alt="Screenshot of Perfex chat module" />
+                <img src="" alt="Screenshot of Perfex chat module" />
               </TabPanel>
             );
           })}
