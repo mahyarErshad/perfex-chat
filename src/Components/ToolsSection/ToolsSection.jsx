@@ -5,6 +5,7 @@ import { ReactComponent as LayerIcon } from "../../assets/images/tabs-layer-icon
 import image1 from "../../assets/images/tabpanel-images/switch.png";
 import image2 from "../../assets/images/tabpanel-images/chat.png";
 import image3 from "../../assets/images/tabpanel-images/group-chat.png";
+import image4 from "../../assets/images/tabpanel-images/notification.png";
 
 function ToolsSection() {
   const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت", "اعمال دسترسی", "تاریخچه  فایل ها"];
