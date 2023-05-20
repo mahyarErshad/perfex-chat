@@ -13,6 +13,7 @@ import image8 from "../../assets/images/tabpanel-images/history.png";
 
 function ToolsSection() {
   const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت", "اعمال دسترسی", "تاریخچه  فایل ها"];
+  const panels = [image1, image2, image3, image4, image5, image6, image7, image8];
   return (
     <section id="tools" className="max-md:mt-24 md:mt-[10.625rem] w-full px-4">
       <SectionTitle title="امکانات ماژول چت اسکریپت پرفکس" />
