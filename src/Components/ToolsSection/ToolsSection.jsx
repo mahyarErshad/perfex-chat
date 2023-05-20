@@ -15,7 +15,7 @@ function ToolsSection() {
   const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت", "اعمال دسترسی", "تاریخچه  فایل ها"];
   const panels = [image1, image2, image3, image4, image5, image6, image7, image8];
   return (
-    <section id="tools" className="max-md:mt-24 md:mt-[10.625rem] w-full px-4 max-w-[82.5rem] mx-auto">
+    <section id="tools" className="max-md:mt-24 md:mt-[10.625rem] w-full px-4 max-w-[82.5rem] mx-auto pt-10">
       <SectionTitle title="امکانات ماژول چت اسکریپت پرفکس" />
       <Tabs className="flex max-lg:flex-col justify-center gap-6 mt-14">
         <div className="flex-col gap-8 lg:max-w-[33.5rem] flex-shrink-0">
