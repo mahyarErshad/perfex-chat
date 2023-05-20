@@ -9,6 +9,7 @@ import image4 from "../../assets/images/tabpanel-images/notification.png";
 import image5 from "../../assets/images/tabpanel-images/pop-up.png";
 import image6 from "../../assets/images/tabpanel-images/toggle.png";
 import image7 from "../../assets/images/tabpanel-images/access.png";
+import image8 from "../../assets/images/tabpanel-images/history.png";
 
 function ToolsSection() {
   const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت", "اعمال دسترسی", "تاریخچه  فایل ها"];
