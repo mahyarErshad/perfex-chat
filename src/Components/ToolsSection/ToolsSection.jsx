@@ -5,7 +5,7 @@ import { ReactComponent as LayerIcon } from "../../assets/images/tabs-layer-icon
 import image from "../../assets/images/tabpanel-images/1.jpg";
 
 function ToolsSection() {
-  const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت", "قابلیت اعمال دسترسی", "تاریخچه  فایل های ارسالی"];
+  const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت", "اعمال دسترسی", "تاریخچه  فایل ها"];
   return (
     <section id="tools" className="max-md:mt-24 md:mt-[10.625rem] w-full px-4">
       <SectionTitle title="امکانات ماژول چت اسکریپت پرفکس" />
