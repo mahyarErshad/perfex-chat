@@ -7,6 +7,7 @@ import image2 from "../../assets/images/tabpanel-images/chat.png";
 import image3 from "../../assets/images/tabpanel-images/group-chat.png";
 import image4 from "../../assets/images/tabpanel-images/notification.png";
 import image5 from "../../assets/images/tabpanel-images/pop-up.png";
+import image5 from "../../assets/images/tabpanel-images/toggle.png";
 
 function ToolsSection() {
   const tabs = ["سوئیچ پوسته", "امکان چت", "ایجاد گروه", "ارسال اطلاعیه", "پاپ آپ", "تاگل چت", "اعمال دسترسی", "تاریخچه  فایل ها"];
