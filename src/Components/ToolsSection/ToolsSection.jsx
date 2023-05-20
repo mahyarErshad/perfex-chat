@@ -31,10 +31,10 @@ function ToolsSection() {
           </TabList>
         </div>
         <div className="min-w-2/4 h-full flex-shrink">
-          {tabs.map((_, index) => {
+          {panels.map((item, index) => {
             return (
               <TabPanel key={index}>
-                <img src="" alt="Screenshot of Perfex chat module" />
+                <img src={item} alt="Screenshot of Perfex chat module" />
               </TabPanel>
             );
           })}
