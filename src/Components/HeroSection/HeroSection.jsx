@@ -53,7 +53,7 @@ const HeroSection = () => {
         <p className="mt-[3.25rem] text-[#292929] max-md:text-lg md:text-2xl font-semibold text-center">
           با ماژول <strong className="text-white">” چت پرفکس ”</strong> امکان گفتگو آنلاین بین کارکنان را فراهم کنید.
         </p>
-        <MyButton className="mt-[3.4375rem]" text="دموی محصول" href="https://www.zhaket.com/web/chat-module-perfex-crm-script/demo" white />
+        <MyButton className="mt-[3.4375rem]" text="دموی محصول" href="https://www.zhaket.com/web/perfex-crm-script/demo" white />
         <OrangeStar className="absolute top-8 right-5 max-md:hidden" />
         <EmptyHeart className="absolute top-24 right-11 max-md:hidden" />
         <BigFilledHeart className="absolute bottom-14 right-16 max-md:hidden" />
