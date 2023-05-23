@@ -1,3 +1,9 @@
+# Available On:
+
+<a href="https://danalinks.net/chat-perfex/landing/" target="_blank" > Dana Links </a>  
+<a href="https://www.zhaket.com/web/chat-module-perfex-crm-script/demo" target="_blank" > Zhaket </a>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
